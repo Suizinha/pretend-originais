@@ -92,6 +92,7 @@ nav {
   font-size: 1.2rem;
   color: #bebebf;
   line-height: 26px;
+  text-align: justify;
 }
 
 aside {
@@ -103,10 +104,10 @@ aside {
   justify-content: center;
   gap: 20px;
 
-  border-right: 1px solid;
+  border-right: 1.5px solid;
   border-image: linear-gradient (#727275, #2c2c31) 1;
 
-  background-image: url("./assets/background.svg");
+  background-image: url("./assets/background.png");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: auto 100%;
