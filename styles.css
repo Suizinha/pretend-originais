@@ -95,6 +95,41 @@ nav {
   text-align: justify;
 }
 
+.introcamila div {
+  font-size: 1.2rem;
+  color: #30ffd5;
+  line-height: 26px;
+  text-align: center;
+}
+
+.introdinah div {
+  font-size: 1.2rem;
+  color: #ff0101d8;
+  line-height: 26px;
+  text-align: center;
+}
+
+.introtroye div {
+  font-size: 1.2rem;
+  color: #9101ff;
+  line-height: 26px;
+  text-align: center;
+}
+
+.introtristan div {
+  font-size: 1.2rem;
+  color: #019eff;
+  line-height: 26px;
+  text-align: center;
+}
+
+.introdesc p {
+  font-size: 1.2rem;
+  color: #bebebf;
+  line-height: 26px;
+  text-align: center;
+}
+
 aside {
   grid-area: profile;
 
@@ -105,7 +140,7 @@ aside {
   gap: 20px;
 
   border-right: 1.5px solid;
-  border-image: linear-gradient (#727275, #2c2c31) 1;
+  border-image: linear-gradient (#0d6715, #ffaa00) 1;
 
   background-image: url("./assets/background.png");
   background-position: top right;
@@ -113,6 +148,10 @@ aside {
   background-size: auto 100%;
 
   transition: transform 0.3s ease-in-out;
+}
+
+#links {
+  color: #ffaa00;
 }
 
 aside * {
@@ -124,8 +163,7 @@ aside img:nth-child(1) {
 }
 
 aside img:nth-child(2) {
-  width: 160px;
-  height: 160px;
+  width: 170px;
   border-radius: 50%;
 
   border: 4px solid transparent;
@@ -133,10 +171,17 @@ aside img:nth-child(2) {
     linear-gradient(260deg, #ffaa00, #fc421c, #ffaa00) border-box;
 
   transition: transform 0.3s ease-in-out;
+  object-fit: cover;
 }
 
 aside:hover img:nth-child(2) {
   transform: scale(1.1);
+}
+
+aside img:nth-child(5) {
+  width: 40px;
+
+  transition: transform 0.3s ease-in-out;
 }
 
 aside p {
@@ -144,12 +189,18 @@ aside p {
   text-align: center;
   color: #ffffff;
 }
+
 aside .titulo {
   text-shadow: 1.5px 1.5px 1.5px #fc791c;
 }
 
+aside .wattpad {
+  font-size: 1rem;
+  text-align: center;
+}
+
 aside span {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: #9e9ea0;
 }
 
